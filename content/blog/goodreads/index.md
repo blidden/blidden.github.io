@@ -5,14 +5,137 @@ thumbnail: ./goodreads_banner.png
 description: Goodreads is a digital reading companion app - designed for tracking reading progress, social cataloguing, and more. As an avid user of this service, and as a designer who saw potential to expand it's offerings, I curated a conceptual redesign of their iOS app.
 ---
 
-### A wallpaper series using shapes and light by [Jean-Marc Denis](http://jmd.im/black)
+>“A book, too, can be a star, ‘explosive material, capable of stirring up fresh life endlessly,’ a living fire to lighten the darkness, leading out into the expanding universe.”
 
-I used a poly reduction on the mesh as a proxy to be able to create my studio setup with a responsive viewport. I used a simple 2 point lighting setup. I created a roughness map using the height map to get the exact results I was looking. After that, I applied my material to the high poly mesh and used a subtle smoothing deformer for the creases.
+## Background
+I love reading. It’s a safe place; one where I can let my mind wander in whatever way it wills. I also love sharing the experience of reading with others. Getting excited about a book with a friend, sharing insights, theories, and reflections over a coffee or glass of wine; it is one of the great joys of my life.
 
-This is the final render.
+For many years Goodreads has been my reading companion app of choice. Despite a scattered few competitors in the market, it remains the primary online platform for book recommendations and social cataloging. The product is a mix of networking, book progressions, recommendation engines, and shelf sorting. The initial offering was launched in 2007 and became acquired by Amazon in 2013.
 
-<div class="kg-card kg-image-card kg-width-full">
+Since its acquisition, the product has remained stagnant on several fronts. Core functionality hasn’t adapted with modern web and design standards, and the user experience (UX) is lacking in several key areas. Similarly, the user interface (UI) is outdated and aesthetically bound to yesteryears Web 2.0 design language. As essentially the ‘only choice’ for reading enthusiasts in the digital space it’s fair to be flabbergasted by i) the fact that a large user base is enduring an otherwise subpar experience, and ii) the reality that no one has come along to disrupt the market.
+
+As both a user of this service, and someone who was looking to add something to their design portfolio, I thought it’d be fun to look at Goodreads from a product design perspective and conduct an unsolicited, conceptual redesign of the iOS app. I’ve never designed a mobile app before, so I was excited at the prospect of giving it a shot.
+
+**Disclaimer**: I am in no way associated with Goodreads or Amazon. As mentioned, this is very much an unsolicited design attempt — one which is conceptual at heart and by no means an exhaustive, end to end product overhaul.
+
+---
+
+## Mission
+
+The mission was initially simple: I wanted to chat with a few friends who use Goodreads, gather some of their pain points (adding my own into the mix), and mock up 2 or 3 screens with a 2020 design mindset.
+
+It played out differently in actuality. My partner (who is an avid reader) runs a casual [book-themed Instagram account](https://www.instagram.com/laura_reads_/), and by proxy is connected with active reading communities from all around the world. It dawned on me that, via her tribe of reading friends, I had access to actual users — people who I’m sure were both on Goodreads and had something to say about it.
+
+I devised a simple UX survey and asked if she’d post it on her account. A few days later I had 50 responses from users who had graciously shared their reflections.
+
+With the backing of real user reflections and stories, and a product-design focus, the mission became:
+
+* Conceptually redesign some of the core screens of Goodreads
+* Implement UX-supported user feedback/stories whilst aligning the design language with modern standards
+* Produce basic prototypes in the process
+
+---
+
+## Method
+
+Experimenting with a new visual identity for a product or service is something I love to do, and visual design is definitely one of my favourite parts of my job. However, I wanted to remain disciplined to a more traditional product design approach to ensure my own biases weren’t unnecessarily guiding my design efforts. Hearing about how other users engage with the product, in ways I don’t, gave me a much more holistic view of the service Goodreads offers, and therefore informed what I chose to dedicate efforts towards for the redesign initiative.
+
+As part of the discipline piece I reflected on several pitfalls I wanted to avoid:
+
+* Conceptualising a design that completely disregards current branding
+* Being too aesthetically minded and superficial (allowing usability to suffer)
+* Designing without scalability in mind
+
+The ethos of these points can be summed up, succinctly, by a phrase coined by Paul Adams, VP of Intercom, known as [“The Dribbblisation of Design”](https://medium.com/intercom-inside/the-dribbblisation-of-design-406422ccb026) - a style of visual design output aimed at appeasing and gathering social capital from the aesthetically minded communities of dribbble.com, versus solving real-world, real-product business problem. Gathering real user feedback for this project was already one large step away from this practice, and I’m again tremendously grateful for the folks who helped me out in that space.
+
+---
+
+## User Experience (UX)
+
+### Understand
+
+Abraham Lincoln was once quoted as saying “Give me six hours to chop down a tree and I will spend the first four sharpening the axe”. Similarly with digital product design, in the UX phase, we feel obligated to serve the user and ensure we know what the problem is before we go about solving it.
+
+Through my humble yet insightful Google Forms (like I said — it’s a small side project!) UX survey I was able to ascertain several high-level, key pain points users were experiencing.
+
+### Research
+
+If this was an entire product overhaul I’d be looking to do a lot more than a UX survey as the core piece of the UX phase, however the scale and nature of this initiative called for something smaller and quicker so I could finish the project in the foreseeable future.
+
+The UX survey was divided into 4 main sections:
+
+**General usage:** these questions were designed for gathering insights on things such as the amount of time the user had been on the platform, how often they engage with the service, and what screens/functions they use most frequently.
+
+**Community:** these questions were designed for gathering insights on how socially interactive users were, and how their behaviour around engaging with other users shaped their sense of connection with friends and authors.
+
+**Experience:** these questions were designed for gathering insights on smaller, micro-behaviours such as the tendency of a user to leave a star rating and how they use the search function.
+
+**Design:** these questions were designed for gathering insights on how the user viewed the aesthetic nature of Gooodreads and how they engaged with the different design languages between the desktop and app.
+
+### Define
+
+The define phase of this project involved collecting data from the initial research phase, collating insights, and synthesising these data points into a meaningful and usable body of knowledge — represented in the form of pain points, user stories, and personas.
+
+Some of the high-level pain points to come out of the survey included:
+
+#### Search functionality is limited
+
+Searching in Goodreads is one of the main user interactions reported back from the UX survey. Feedback ranged from minor annoyances with random books appearing when they shouldn’t be, to passionate reflections on the absurdity of not being able to see search results unless the book was spelt correctly (i.e. no prediction technology)
+
+```
+“It’s terrible! I don’t understand how a search engine owned by Amazon could be so clunky and get a book wrong if there’s a slight error in it”
+```
+```
+“A book will appear in the search but when you go to select it, the search ‘catches up’ with the extra letters you typed and will change the selection a split second before you tap it”
+```
+```
+“It’s awful. Doesn’t predict what I’m searching well based on book popularity or publication date and doesn’t suggest helpful alternatives if I’ve mistyped one word!”
+```
+
+#### A significant disconnect from friends and authors, despite the platform identifying as a social networking service.
+
+Users reported feelings of disconnection between themselves and friends on the platform. A lack of commenting technology standards (for 2020) such as tagging, replying, and reacting is hurting the platform here.
+
+```
+“I’d be a lot more interested in talking to people on Goodreads if I could reply to someone’s comment!”
+```
+```
+“I like how other social platforms allow you to tag someone. I wish Goodreads had that!”
+```
+```
+“Notifications on the app suck, and people never see when I’ve commented on something - so maybe if that was fixed I’d be more inclined to chat more”
+```
+
+#### Navigation is confusing
+
+The Goodreads service runs surprisingly deep from a desktop site offerings perspective, so naturally there’s a process of elimination involved in presenting a consumable set of navigational options in an app environment with less screen estate. Users stated that finding their way around the Goodreads app was difficult, and that some of their more frequently used screens/functions weren’t readily accessible.
+
+```
+“It’s clunky, the navigation is not easy to work out and often it is hard to get back to the page you were previously on”
+```
+```
+“It’s not user friendly and doesn’t respond well to what would seem like basic prompts by the user.”
+```
+```
+“Even though I’ve used it for a long time, it still takes me a few goes occasionally to get to the right page to update my reading status”
+```
+
+#### Aesthetic is dull and uninspiring
+
+Users in 2020 have high expectations of apps, and there’s only so much they’ll put up with when it comes to something which looks (and acts) outdated. Users shared reflections pertaining to a cluttered UI - something that looks severely outdated, and isn’t a delight to use/look at.
+
+```
+“It’s outdated and clunky and definitely needs a complete overhaul”
+```
+```
+“It is so average! For such an incredible resource and concept the delivery is so flat. It makes me feel like I am living in the prehistoric times, especially when things like Bookstagram and blog posts etc have come a long way!”
+```
+```
+“I like the simplistic branding, it would be nice if the site looked more modern. I find it a bit too clustered and slightly old fashioned.”
+```
+
+<!-- <div class="kg-card kg-image-card kg-width-wide">
 
 ![Darkness](./new_home.png)
 
-</div>
+</div> -->

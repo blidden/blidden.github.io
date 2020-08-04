@@ -27,6 +27,21 @@ class BlogPostTemplate extends React.Component {
             <p class="post-content-excerpt">{post.frontmatter.description}</p>
           )}
 
+          {/* <div className="post-content row project-meta">
+            <div className="col">
+              <h6>Company</h6>
+              <p>N/A</p>
+            </div>
+            <div className="col">
+              <h6>Company</h6>
+              <p>N/A</p>
+            </div>
+            <div className="col">
+              <h6>Company</h6>
+              <p>N/A</p>
+            </div>
+          </div> */}
+
           {post.frontmatter.thumbnail && (
             <div className="post-content-image">
               <Img

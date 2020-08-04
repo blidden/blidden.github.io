@@ -676,6 +676,11 @@ body {
     box-shadow: none !important;
 }
 
+.project-meta {
+    background: red;
+    border-radius: 15px;
+}
+
 /* Author Archive
 /* ---------------------------------------------------------- */
 
