@@ -623,6 +623,19 @@ body {
     border-radius: 5px;
 }
 
+.post-quote {
+    margin: 1.5em 0 3em;
+    padding: 20px;
+    max-width: 100%;
+    border: color(var(--color-base) l(-10%)) 1px solid;
+    color: var(--color-bg);
+    font-size: 1.4rem;
+    font-family: monospace, monospace;
+    line-height: 1.5em;
+    background: color(var(--color-base) l(-3%));
+    border-radius: 5px;  
+}
+
 .post-content-body pre code {
     padding: 0;
     font-size: inherit;
@@ -639,11 +652,12 @@ body {
 }
 
 .post-content-body hr {
-    margin: 4vw 0;
+    margin: 8vw 0;
 }
 
 .post-content-body hr:after {
-    content: "";
+    content: "~";
+    color: #e2e2e2;
     position: absolute;
     top: -15px;
     left: 50%;
@@ -651,9 +665,10 @@ body {
     margin-left: -10px;
     width: 1px;
     height: 30px;
+    font-size: 80px;
     background: color(var(--color-border) l(+10%));
-    box-shadow: #fff 0 0 0 5px;
-    transform: rotate(45deg);
+    /* box-shadow: #e8e8e8 0 0 0 4px; */
+    /* transform: rotate(45deg); */
 }
 
 .footnotes-sep {
@@ -679,6 +694,16 @@ body {
 .project-meta {
     background: red;
     border-radius: 15px;
+}
+
+.section_title {
+    /* font-family: Menlo, Courier, monospace; */
+    margin-bottom: -53px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 48px;
+    color: color(var(--color-secondary));
 }
 
 /* Author Archive

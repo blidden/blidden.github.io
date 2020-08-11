@@ -9,6 +9,10 @@
     margin: 0 -1rem;
 }
 
+.center {
+    margin: 0 auto;
+}
+
 .col,
 .col-1,
 .col-2,
