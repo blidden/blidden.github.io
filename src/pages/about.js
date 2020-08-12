@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import ReactPlayer from "react-player"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,16 +18,20 @@ const AboutPage = ({ data }, location) => {
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          {/* <figure className="kg-card kg-image-card kg-width-wide">
+          <h4 id="dynamic-styles">Hi, I'm Beau. I'm a product designer, currently based in Wollongong, NSW - an idyllic beach town on the east coast of Australia. I've been designing for 7 years, and currently lead the design team at <a href="https://www.accelo.com/">Accelo</a>.</h4>
+          <figure className="kg-card kg-image-card">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-          </figure> */}
-          <h6 id="dynamic-styles">Hi, I'm Beau. I'm a product designer, currently based in Wollongong, NSW - an idyllic beach town on the east coast of Australia. I've been designing for 7 years, and currently lead the design team at <a href="https://www.accelo.com/">Accelo</a>.</h6>
-          <p>
-          I love product design because it's like tending to a garden; curating a space that is constantly evolving with the world around it. There are limitations, rules - yet opportunities for a lot of creativity. Sometimes there are weeds in the form of design bugs or inconsistent UI elements. Othertimes there are deep roots, like presumptive user rationale, or relics of broken business logic. Amidst these maintenance pieces, within the walled garden, opportunities for creation, clever thinking, and pushing boundaries is abound. It's designing without the blank canvas but, in some ways, it keeps the challenge factor up by pushing me to think beyond pixels. These challenges make me excited, every day, that I get to work as a product designer.
-          </p>
+          </figure>
+          <p>I love product design because it's like tending to a garden; curating a space that is constantly evolving with the world around it. There are limitations, rules - yet opportunities for a lot of creativity. Sometimes there are weeds in the form of design bugs or inconsistent UI elements. Othertimes there are deep roots, like presumptive user rationale, or relics of broken business logic. Amidst these maintenance pieces, within the walled garden, opportunities for creation, clever thinking, and pushing boundaries is abound. It's designing without the blank canvas but, in some ways, it keeps the challenge factor up by pushing me to think beyond pixels. These challenges make me excited, every day, that I get to work as a product designer.</p>
+        </div>
+        <div className="post-content-body">
+          <hr></hr>
+        </div>
+        <div className="post-content-body">
+          <p>Design is only one part of my life, though. When I'm not working I like to spend time with my lovely family, going on walks and picnics, heading to the beach, and chasing Matilda around the house. To relax I like to read, go on runs, play basketball, and listen to/play music 🙂</p>
         </div>
       </article>
     </Layout>
@@ -41,7 +46,7 @@ const indexQuery = graphql`
       }
     }
     benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
+      relativePath: { eq: "me_web.jpg" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {
