@@ -580,7 +580,7 @@ body {
 }
 
 .post-content-body blockquote {
-    margin: 0 0 1.5em;
+    margin: 4em 0 4em;
     padding: 0 1.5em;
     border-left: #3eb0ef 3px solid;
 }
@@ -588,8 +588,8 @@ body {
 .post-content-body blockquote p {
     margin: 0 0 1em 0;
     color: inherit;
-    font-size: inherit;
-    line-height: inherit;
+    font-size: 32px;
+    line-height: 46px;
     font-style: italic;
 }
 

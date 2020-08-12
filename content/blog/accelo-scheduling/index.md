@@ -53,7 +53,6 @@ Through net promoter score (NPS) feedback, FullStory viewing sessions, and sever
     <dd>
         <p>Managers weren’t able to discern what constituted a time total on a given day. “I can see that Michael has 4 hours of booked work on Monday, however I can’t see what that work is from this screen”</p>
     </dd>
-    IMAGE
     <dt>Limited vantage point</dt>
     <dd>
         <p>Both screens were bound to a 7-day view. Managers need to see what’s coming up in the next week in order to make calculated decisions before booking someone onto a piece of work.</p>
@@ -206,7 +205,6 @@ Retrospective thinking is something we try to do often at Accelo. The project to
     <dd>
         <p>The team felt as though the early-stage UX processes had us in a state of flow. A large amount of work, high in quality, was achieved through our user interviews especially, and gave us the necessary insights to make user-centric decisions along the way. </p>
     </dd>
-    IMAGE
     <dt>Where did we struggle? And why?</dt>
     <dd>
         <p>The initial part of the detailed design phase was difficult, as we hadn’t finished wireframing all of our UI permutations. In some cases this can cause minor inconveniences, however due to the complexity and enormity of this project we found that there were several moments when we were designing fully detailed interfaces in Sketch where we had to return to the whiteboard for another round of sketching. This held us up and caused project delivery date problems.</p>

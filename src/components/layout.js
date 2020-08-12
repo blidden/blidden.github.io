@@ -44,6 +44,14 @@ const Layout = props => {
           </div>
           <div className="site-head-right">
             <div className="social-links">
+            <a
+                href="mailto:b.lidden@gmail.com"
+                title="Email me"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact
+              </a>
               <a
                 href="https://www.linkedin.com/in/beaulidden/"
                 title="LinkedIn"
