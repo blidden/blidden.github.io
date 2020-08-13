@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Beau Lidden]]></title><description><![CDATA[Hi, I'm Beau - a product designer living between the escarpment and the Aussie beaches in NSW, Australia.]]></description><link>https://beaulidden.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 13 Aug 2020 11:17:36 GMT</lastBuildDate><item><title><![CDATA[Goodreads]]></title><description><![CDATA[“A book, too, can be a star, ‘explosive material, capable of stirring up fresh life endlessly,’ a living fire to lighten the darkness…]]></description><link>https://beaulidden.com/goodreads/</link><guid isPermaLink="false">https://beaulidden.com/goodreads/</guid><pubDate>Sat, 25 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;kg-card kg-image-card kg-width-wide&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Beau Lidden]]></title><description><![CDATA[Hi, I'm Beau - a product designer living between the escarpment and the Aussie beaches in NSW, Australia.]]></description><link>https://beaulidden.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 13 Aug 2020 12:22:06 GMT</lastBuildDate><item><title><![CDATA[Goodreads]]></title><description><![CDATA[“A book, too, can be a star, ‘explosive material, capable of stirring up fresh life endlessly,’ a living fire to lighten the darkness…]]></description><link>https://beaulidden.com/goodreads/</link><guid isPermaLink="false">https://beaulidden.com/goodreads/</guid><pubDate>Sat, 25 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;kg-card kg-image-card kg-width-wide&quot;&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1901,7 +1901,7 @@ Align with long-term product strategy regarding the simplification of Accelo&lt;
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b846c2f361600c6197941a358c592377/33266/nav1_detailed.jpg&quot;
+    href=&quot;/static/7944946232434e6f836f7b79c2123b95/09658/new_nav_1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1913,32 +1913,34 @@ Align with long-term product strategy regarding the simplification of Accelo&lt;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 115.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAXABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCAf/EABYBAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABg1nt5ygoBMD/xAAZEAEAAgMAAAAAAAAAAAAAAAADMTIAARD/2gAIAQEAAQUCSi8SizuUo05//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAQUBAAAAAAAAAAAAAAAAcgABAgMQwf/aAAgBAQAGPwKseqANlQ9UAbKh6oA2f//EABsQAAICAwEAAAAAAAAAAAAAAAABEWEQIfAx/9oACAEBAAE/Ie6wvudvQNQzstmh2WHgVuT/2gAMAwEAAgADAAAAEADgQv/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESFBMVGhwfD/2gAIAQEAAT8QG7u4CVFBxdZDYdjMuXxD5faZV7PNxRB19UVWuz//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 66.47058823529413%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAATiYJz0aiv/EABoQAAICAwAAAAAAAAAAAAAAAAACBDIBMzT/2gAIAQEAAQUCbfkj0boI9P/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAEFAAAAAAAAAAAAAAAAAHEAAQMQwf/aAAgBAQAGPwKM7TlRnacr/8QAGxAAAQUBAQAAAAAAAAAAAAAAAAERIWHwUbH/2gAIAQEAAT8hzXEI/ZIsayGK4/prpD//2gAMAwEAAgADAAAAEBQv/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQMBAT8QR//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAECAQE/EFf/xAAcEAEAAwACAwAAAAAAAAAAAAABABEhQWFxobH/2gAIAQEAAT8Q9LNrBQMLzLhBrBQV+LN68/sVpVah/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/b846c2f361600c6197941a358c592377/719ab/nav1_detailed.webp 340w,
-/static/b846c2f361600c6197941a358c592377/4c79d/nav1_detailed.webp 680w,
-/static/b846c2f361600c6197941a358c592377/8717b/nav1_detailed.webp 1360w,
-/static/b846c2f361600c6197941a358c592377/95f20/nav1_detailed.webp 1440w&quot;
+          srcset=&quot;/static/7944946232434e6f836f7b79c2123b95/719ab/new_nav_1.webp 340w,
+/static/7944946232434e6f836f7b79c2123b95/4c79d/new_nav_1.webp 680w,
+/static/7944946232434e6f836f7b79c2123b95/8717b/new_nav_1.webp 1360w,
+/static/7944946232434e6f836f7b79c2123b95/bfde8/new_nav_1.webp 2040w,
+/static/7944946232434e6f836f7b79c2123b95/96d48/new_nav_1.webp 2048w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/b846c2f361600c6197941a358c592377/31389/nav1_detailed.jpg 340w,
-/static/b846c2f361600c6197941a358c592377/a22ce/nav1_detailed.jpg 680w,
-/static/b846c2f361600c6197941a358c592377/232dc/nav1_detailed.jpg 1360w,
-/static/b846c2f361600c6197941a358c592377/33266/nav1_detailed.jpg 1440w&quot;
+          srcset=&quot;/static/7944946232434e6f836f7b79c2123b95/31389/new_nav_1.jpg 340w,
+/static/7944946232434e6f836f7b79c2123b95/a22ce/new_nav_1.jpg 680w,
+/static/7944946232434e6f836f7b79c2123b95/232dc/new_nav_1.jpg 1360w,
+/static/7944946232434e6f836f7b79c2123b95/5b988/new_nav_1.jpg 2040w,
+/static/7944946232434e6f836f7b79c2123b95/09658/new_nav_1.jpg 2048w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/b846c2f361600c6197941a358c592377/232dc/nav1_detailed.jpg&quot;
+          src=&quot;/static/7944946232434e6f836f7b79c2123b95/232dc/new_nav_1.jpg&quot;
           alt=&quot;Old Menu&quot;
           title=&quot;&quot;
-          src=&quot;/static/b846c2f361600c6197941a358c592377/232dc/nav1_detailed.jpg&quot;
+          src=&quot;/static/7944946232434e6f836f7b79c2123b95/232dc/new_nav_1.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -2486,7 +2488,6 @@ Align with long-term product strategy regarding the simplification of Accelo&lt;
 &lt;ul&gt;
 &lt;li&gt;Showing more ‘Recently Viewed’ results when using global search filtered to a specific module. Users really liked this new feature but wanted to see more than 4 results - so this has now been expanded out to 8.&lt;/li&gt;
 &lt;li&gt;Allowing for the Stream link to appear in the top nav. This feature received a mixed response, considering the nature of Accelo’s Stream screen and overall uptake. Early user interviews&lt;/li&gt;
-&lt;li&gt;Add more&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As we look towards the public release of the nav, the design team and I remain vigilant in seeking feedback and ensuring what we deliver is of value to our end users!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Accelo - Scheduling]]></title><description><![CDATA[How Accelo was Managing Scheduling & Utilisation Accelo keeps track of a significant amount of data. When a system has the ability to store…]]></description><link>https://beaulidden.com/accelo-scheduling/</link><guid isPermaLink="false">https://beaulidden.com/accelo-scheduling/</guid><pubDate>Mon, 25 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;kg-card kg-image-card kg-width-wide&quot;&gt;
 &lt;p&gt;
