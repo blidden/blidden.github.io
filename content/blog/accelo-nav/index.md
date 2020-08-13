@@ -11,6 +11,27 @@ description: The navigation for any product is the map; the users guide for trav
 
 </div>
 
+---
+
+<div>
+    <div class="project-meta row">
+        <div class="col-3">
+            <div class="meta-heading">Date</div>
+            <div class="meta-desc">18-8-2019</div>
+        </div>
+        <div class="col-3">
+            <div class="meta-heading">Roles</div>
+            <div class="meta-desc">UX &amp; UI</div>
+        </div>
+        <div class="col">
+            <div class="meta-heading">Responsibilities</div>
+            <div class="meta-desc">User research, interviews, sketches, wireframes, detailed design, prototyping</div>
+        </div>
+    </div>
+</div>
+
+---
+
 Accelo is a complex product. Boasting features such as a CRM, time tracking, bulk billing, project management, ticketing, and utilisation analysis, it presents the designer with a challenge when it comes time to curating pathways to specific screens and features throughout the product.
 
 I was tasked with envisaging how navigation could work for Accelo, helping expose and promote core user pathways to support key workflows.

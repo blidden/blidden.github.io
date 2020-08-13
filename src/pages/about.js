@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
-import ReactPlayer from "react-player"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -47,7 +46,7 @@ const indexQuery = graphql`
       }
     }
     benchAccounting: file(
-      relativePath: { eq: "me_web.jpg" }
+      relativePath: { eq: "me.jpg" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {

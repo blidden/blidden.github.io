@@ -11,14 +11,39 @@ description: Goodreads is a digital reading companion app - designed for trackin
 
 </div>
 
+---
+
+<div>
+    <div class="project-meta row">
+        <div class="col-3">
+            <div class="meta-heading">Date</div>
+            <div class="meta-desc">20-6-2020</div>
+        </div>
+        <div class="col-3">
+            <div class="meta-heading">Roles</div>
+            <div class="meta-desc">UX &amp; UI</div>
+        </div>
+        <div class="col">
+            <div class="meta-heading">Responsibilities</div>
+            <div class="meta-desc">User questionnaires, sketches, wireframes, detailed design, prototyping</div>
+        </div>
+    </div>
+</div>
+
+---
+
 >“A book, too, can be a star, ‘explosive material, capable of stirring up fresh life endlessly,’ a living fire to lighten the darkness, leading out into the expanding universe.”
+
+<div class="quote_author">- Madeleine L’Engle</div>
 
 ## Background
 I love reading. It’s a safe place; one where I can let my mind wander in whatever way it wills. I also love sharing the experience of reading with others. Getting excited about a book with a friend, sharing insights, theories, and reflections over a coffee or glass of wine; it is one of the great joys of my life.
 
 For many years Goodreads has been my reading companion app of choice. Despite a scattered few competitors in the market, it remains the primary online platform for book recommendations and social cataloging. The product is a mix of networking, book progressions, recommendation engines, and shelf sorting. The initial offering was launched in 2007 and became acquired by Amazon in 2013.
 
-Since its acquisition, the product has remained stagnant on several fronts. Core functionality hasn’t adapted with modern web and design standards, and the user experience (UX) is lacking in several key areas. Similarly, the user interface (UI) is outdated and aesthetically bound to yesteryears Web 2.0 design language. As essentially the ‘only choice’ for reading enthusiasts in the digital space it’s fair to be flabbergasted by i) the fact that a large user base is enduring an otherwise subpar experience, and ii) the reality that no one has come along to disrupt the market.
+>Since its acquisition, the product has remained stagnant on several fronts. Core functionality hasn’t adapted with modern web and design standards, and the user experience (UX) is lacking in several key areas. Similarly, the user interface (UI) is outdated and aesthetically bound to yesteryears Web 2.0 design language.
+
+As essentially the ‘only choice’ for reading enthusiasts in the digital space it’s fair to be flabbergasted by i) the fact that a large user base is enduring an otherwise subpar experience, and ii) the reality that no one has come along to disrupt the market.
 
 As both a user of this service, and someone who was looking to add something to their design portfolio, I thought it’d be fun to look at Goodreads from a product design perspective and conduct an unsolicited, conceptual redesign of the iOS app. I’ve never designed a mobile app before, so I was excited at the prospect of giving it a shot.
 
@@ -31,7 +56,7 @@ The mission was initially simple: I wanted to chat with a few friends who use Go
 
 It played out differently in actuality. My partner (who is an avid reader) runs a casual [book-themed Instagram account](https://www.instagram.com/laura_reads_/), and by proxy is connected with active reading communities from all around the world. It dawned on me that, via her tribe of reading friends, I had access to actual users — people who I’m sure were both on Goodreads and had something to say about it.
 
-I devised a simple UX survey and asked if she’d post it on her account. A few days later I had 50 responses from users who had graciously shared their reflections.
+>I devised a simple UX survey and asked if she’d post it on her account. A few days later I had 50 responses from users who had graciously shared their reflections.
 
 With the backing of real user reflections and stories, and a product-design focus, the mission became:
 
@@ -283,7 +308,9 @@ Comments have their own bottom sheet to curate a more immersive social experienc
 ![Darkness](./comments_gif.gif)
 
 #### Emotes
-The ability to ‘react’ to a general activity update has been introduced. This was brought in to promote more social interaction. One of the main focus points of this redesign was to convey a greater relational proximity between users and their friends. Giving users the ability to express themselves in playful ways helps this cause, and ideally encourages book-related frivolity.
+The ability to ‘react’ to a general activity update has been introduced. This was brought in to promote more social interaction.
+
+>One of the main focus points of this redesign was to convey a greater relational proximity between users and their friends. Giving users the ability to express themselves in playful ways helps this cause, and ideally encourages book-related frivolity.
 
 ![Darkness](./emotes.jpg)
 
@@ -304,7 +331,9 @@ Updates have been designed for rapid interaction. Via a bottom sheet, the user c
 ### Reviewing
 
 #### Stars
-The vast majority of users reported that they submitted star ratings when they finished a book. A key frustration was the inability to give half-star ratings, though. This design takes such feedback into account, and allows for 1/2 star increments via a simple slider.
+The vast majority of users reported that they submitted star ratings when they finished a book.
+
+>A key frustration was the inability to give half-star ratings, though. This design takes such feedback into account, and allows for 1/2 star increments via a simple slider.
 
 <div class="kg-card kg-image-card kg-width-wide">
 
@@ -369,7 +398,7 @@ The inability to change the edition of a book via the app was a major pain point
 ### List
 Lists is a new feature I’m proposing in this redesign in order to i) expand the realm of activity on the platform beyond simply starting, stopping, or reviewing a book, and ii) to increase the rate of in-bound traffic to the platform by encouraging users to employ the sharing functionality on the list page.
 
-Lists are a simple, easily digestible way to share information and help communities of niche interests to further their reach by curating offerings for interested parties.
+>Lists are a simple, easily digestible way to share information and help communities of niche interests to further their reach by curating offerings for interested parties.
 
 This is a feature I’d imagine authors would like to explore, as well.
 
@@ -406,7 +435,11 @@ The yearly reading challenge screen has only received minimal aesthetic change. 
 ---
 
 ## Reflections
-his was an enriching experience. Having never done mobile app design before it really pushed me to think about the intricacies, limitations, and opportunities of cross-platform design. As I audited the desktop ‘full’ experience of Goodreads I felt challenged, on numerous occasions, to hold up the value proposition of feature x versus feature y — considering the restrictions, both from a screen estate and functionality perspective, of mobile design. The UX survey assisted me greatly in this space, and definitely helped clarify my own observations.
+This was an enriching experience. Having never done mobile app design before it really pushed me to think about the intricacies, limitations, and opportunities of cross-platform design.
+
+>As I audited the desktop ‘full’ experience of Goodreads I felt challenged, on numerous occasions, to hold up the value proposition of feature x versus feature y — considering the restrictions, both from a screen estate and functionality perspective, of mobile design.
+
+The UX survey assisted me greatly in this space, and definitely helped clarify my own observations.
 
 There are all sorts of areas of the Goodreads app not included in this design study. At some stage I’d like to explore:
 

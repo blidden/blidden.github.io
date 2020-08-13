@@ -13,6 +13,25 @@ description: The Schedule Dashboard was designed to solve what all professional 
 
 ---
 
+<div>
+    <div class="project-meta row">
+        <div class="col-3">
+            <div class="meta-heading">Date</div>
+            <div class="meta-desc">12-4-2017</div>
+        </div>
+        <div class="col-3">
+            <div class="meta-heading">Roles</div>
+            <div class="meta-desc">UX &amp; UI</div>
+        </div>
+        <div class="col">
+            <div class="meta-heading">Responsibilities</div>
+            <div class="meta-desc">User interviews, sketches, wireframes, detailed design</div>
+        </div>
+    </div>
+</div>
+
+---
+
 <div class="section_title">Background</div>
 
 ## How Accelo was Managing Scheduling & Utilisation

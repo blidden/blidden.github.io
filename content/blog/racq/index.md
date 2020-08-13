@@ -11,6 +11,27 @@ description: One of Australia's oldest motoring clubs redesigns their public fac
 
 </div>
 
+---
+
+<div>
+    <div class="project-meta row">
+        <div class="col-3">
+            <div class="meta-heading">Date</div>
+            <div class="meta-desc">5-7-2014</div>
+        </div>
+        <div class="col-3">
+            <div class="meta-heading">Roles</div>
+            <div class="meta-desc">UX &amp; UI</div>
+        </div>
+        <div class="col">
+            <div class="meta-heading">Responsibilities</div>
+            <div class="meta-desc">Business owner interviews, wireframes, detailed design</div>
+        </div>
+    </div>
+</div>
+
+---
+
 Initially a club for automobile enthusiasts, RACQ grew over it’s 100-year life into Australia’s largest membership club; ranging from offerings such as roadside assistance and car reviews, to diversified offerings such as insurance, travel programs, and banking.
 
 RACQ’s digital presence was deep but outdated. Covering 30 business units, the public facing websites IA was convoluted and many UX stories pertaining to confusion, a lack of reference point, and buggy functionality, had found it’s way to business owners. RACQ engaged with Deloitte Digital to conduct a complete redesign.
