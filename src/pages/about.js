@@ -17,7 +17,7 @@ const AboutPage = ({ data }, location) => {
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h4 id="dynamic-styles">Hi, I'm Beau. I'm a product designer, currently based in Wollongong, NSW - an idyllic beach town on the east coast of Australia. I've been designing for 7 years, and currently lead the design team at <a href="https://www.accelo.com/">Accelo</a>.</h4>
+          <h4 id="dynamic-styles">Hi, I'm Beau. I'm a product designer, currently based in Wollongong, NSW - an idyllic beach town on the east coast of Australia. I currently work with the design team at <a href="https://www.zendesk.com/">Zendesk</a>.</h4>
           <h5>I love helping teams produce beautiful digital offerings. My ability to sit at the intersection of creativity and logic is what helps me bring value and energy to whatever the challenge my be.</h5>
           <figure className="kg-card kg-image-card">
             <Img
