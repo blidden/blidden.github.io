@@ -1,31 +1,37 @@
 .sideNav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 80px;
-    background: $nyc-orange;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    // .sideNav__cont {
-    //     background: red;
-    //     transform: rotate(90deg);
-    // }
-    a {
-        color: black;
-        font-family: $newOrder;
-        font-weight: $newOrder_regular;
-        text-decoration: none;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        font-size: 18px;
-        transform: rotate(90deg);
-        padding: 27px 100px;
-        &:hover {
-            background: white;
-            transition: 0.3s;
+    @media #{$large-up} {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80px;
+        background: $nyc-orange;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        a {
+            color: black;
+            font-family: $newOrder;
+            font-weight: $newOrder_regular;
+            text-decoration: none;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            font-size: 18px;
+            transform: rotate(90deg);
+            padding: 27px 100px;
+            &:hover {
+                background: white;
+                transition: 0.2s;
+                color: $nyc-orange;
+                font-weight: $newOrder_semibold;
+            }
         }
+    }
+    @media #{$medium-only} {
+        display: none;
+    }
+    @media #{$small-only} {
+        display: none;
     }
 }

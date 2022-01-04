@@ -5,8 +5,48 @@
     &.hero {
         padding: 80px 0;
     }
+    &.off-white {
+        background: #FCFCFC;
+        @media #{$large-up} {
+            .row {
+                margin-bottom: 100px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
 }
 
 img {
     padding: 60px 0;
+}
+
+.projectTile {
+    font-family: $newOrder;
+    padding: 8px;
+    overflow: hidden;
+    .projectTile__line {
+        width: 50%;
+        height: 8px;
+        margin-bottom: 4px;
+        background: black;
+    }
+    .projectTile__title {
+        font-size: 24px;
+        font-weight: $newOrder_medium;
+        color: black;
+    }
+    .projectTile__subtitle {
+        font-size: 18px;
+        font-weight: $newOrder_regular;
+        color: $marcy-grey;
+    }
+    .projectTile__image {
+        height: 100%;
+        width: 100%;
+    }
+    img {
+        padding: 0;
+    }
 }

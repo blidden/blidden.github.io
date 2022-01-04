@@ -9744,6 +9744,14 @@ h1 {
 }
 
 /* line 22, ../scss/_typography.scss */
+h2 {
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+/* line 29, ../scss/_typography.scss */
 h3 {
   font-family: new-order, sans-serif;
   font-weight: 500;
@@ -9752,7 +9760,7 @@ h3 {
   line-height: 40px;
 }
 
-/* line 30, ../scss/_typography.scss */
+/* line 37, ../scss/_typography.scss */
 p {
   font-family: new-order, sans-serif;
   font-weight: 400;
@@ -9760,52 +9768,81 @@ p {
   line-height: 33px;
 }
 
-/* line 37, ../scss/_typography.scss */
-.siteTitle {
+/* line 45, ../scss/_typography.scss */
+.siteTitle a {
   font-family: bely, serif;
   font-weight: 400;
   font-size: 20px;
   color: #AFAFAF;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-/* line 45, ../scss/_typography.scss */
+/* line 55, ../scss/_typography.scss */
 a {
   color: #ED6E27;
   font-family: new-order, sans-serif;
   font-weight: 600;
   text-decoration: underline;
 }
-
-/* line 1, ../scss/_nav.scss */
-.sideNav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 80px;
-  background: #ED6E27;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-/* line 16, ../scss/_nav.scss */
-.sideNav a {
-  color: black;
-  font-family: new-order, sans-serif;
-  font-weight: 400;
+/* line 60, ../scss/_typography.scss */
+a.projectTile {
+  display: block;
   text-decoration: none;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font-size: 18px;
-  transform: rotate(90deg);
-  padding: 27px 100px;
 }
-/* line 26, ../scss/_nav.scss */
-.sideNav a:hover {
-  background: white;
+/* line 63, ../scss/_typography.scss */
+a.projectTile:hover {
+  background: #F5F5F5;
+  -webkit-box-shadow: 5px 5px 18px 1px #E7E7E7;
+  box-shadow: 5px 5px 18px 1px #E7E7E7;
   transition: 0.3s;
+}
+
+@media only screen and (min-width: 64.0625em) {
+  /* line 1, ../scss/_nav.scss */
+  .sideNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    background: #ED6E27;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  /* line 13, ../scss/_nav.scss */
+  .sideNav a {
+    color: black;
+    font-family: new-order, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    transform: rotate(90deg);
+    padding: 27px 100px;
+  }
+  /* line 23, ../scss/_nav.scss */
+  .sideNav a:hover {
+    background: white;
+    transition: 0.2s;
+    color: #ED6E27;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+  /* line 1, ../scss/_nav.scss */
+  .sideNav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 1, ../scss/_nav.scss */
+  .sideNav {
+    display: none;
+  }
 }
 
 /* line 1, ../scss/_layout.scss */
@@ -9818,10 +9855,59 @@ a {
 .section.hero {
   padding: 80px 0;
 }
+/* line 8, ../scss/_layout.scss */
+.section.off-white {
+  background: #FCFCFC;
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 11, ../scss/_layout.scss */
+  .section.off-white .row {
+    margin-bottom: 100px;
+  }
+  /* line 13, ../scss/_layout.scss */
+  .section.off-white .row:last-child {
+    margin-bottom: 0;
+  }
+}
 
-/* line 10, ../scss/_layout.scss */
+/* line 21, ../scss/_layout.scss */
 img {
   padding: 60px 0;
+}
+
+/* line 25, ../scss/_layout.scss */
+.projectTile {
+  font-family: new-order, sans-serif;
+  padding: 8px;
+  overflow: hidden;
+}
+/* line 29, ../scss/_layout.scss */
+.projectTile .projectTile__line {
+  width: 50%;
+  height: 8px;
+  margin-bottom: 4px;
+  background: black;
+}
+/* line 35, ../scss/_layout.scss */
+.projectTile .projectTile__title {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+/* line 40, ../scss/_layout.scss */
+.projectTile .projectTile__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #808080;
+}
+/* line 45, ../scss/_layout.scss */
+.projectTile .projectTile__image {
+  height: 100%;
+  width: 100%;
+}
+/* line 49, ../scss/_layout.scss */
+.projectTile img {
+  padding: 0;
 }
 
 /* line 1, ../scss/_footer.scss */

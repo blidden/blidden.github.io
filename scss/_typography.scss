@@ -19,6 +19,13 @@ h1 {
     margin-bottom: 100px;
 }
 
+h2 {
+    font-family: $belyDisplay;
+    font-weight: $belyDisplay_regular;
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+
 h3 {
     font-family: $newOrder;
     font-weight: $newOrder_medium;
@@ -35,11 +42,14 @@ p {
 }
 
 .siteTitle {
-    font-family: $bely;
-    font-weight :$bely_regular;
-    font-size: 20px;
-    color: #AFAFAF;
-    text-transform: uppercase;
+    a {
+        font-family: $bely;
+        font-weight :$bely_regular;
+        font-size: 20px;
+        color: #AFAFAF;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
 }
 
 a {
@@ -47,4 +57,14 @@ a {
     font-family: $newOrder;
     font-weight: $newOrder_semibold;
     text-decoration: underline;
+    &.projectTile {
+        display: block;
+        text-decoration: none;
+        &:hover {
+            background: #F5F5F5;
+            -webkit-box-shadow: 5px 5px 18px 1px #E7E7E7; 
+            box-shadow: 5px 5px 18px 1px #E7E7E7;
+            transition: 0.3s;
+        }
+    }
 }
