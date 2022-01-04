@@ -1,0 +1,50 @@
+// BELY DISPLAY HEADING STYLES
+$belyDisplay: bely-display,sans-serif;
+$belyDisplay_regular: 400;
+
+// BELY HEADING STYLES
+$bely: bely, serif;
+$bely_regular: 400;
+
+// NEW ORDER HEADING STYLES
+$newOrder: new-order, sans-serif;
+$newOrder_regular: 400;
+$newOrder_medium: 500;
+$newOrder_semibold: 600;
+
+h1 {
+    font-family: $belyDisplay;
+    font-weight: $belyDisplay_regular;
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-family: $newOrder;
+    font-weight: $newOrder_medium;
+    font-size: 24px;
+    margin-bottom: 80px;
+    line-height: 40px;
+}
+
+p {
+    font-family: $newOrder;
+    font-weight: $newOrder_regular;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.siteTitle {
+    font-family: $bely;
+    font-weight :$bely_regular;
+    font-size: 20px;
+    color: #AFAFAF;
+    text-transform: uppercase;
+}
+
+a {
+    color: $nyc-orange;
+    font-family: $newOrder;
+    font-weight: $newOrder_semibold;
+    text-decoration: underline;
+}

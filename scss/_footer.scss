@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    background: $nyc-orange;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    margin: 0 auto;
+    width: 20%;
+    a {
+        color: black;
+    }
+}
