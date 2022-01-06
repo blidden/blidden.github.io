@@ -24,6 +24,11 @@ h2 {
     font-weight: $belyDisplay_regular;
     font-size: 48px;
     margin-bottom: 80px;
+    &.portfolio {
+        font-family: $newOrder;
+        font-weight: $newOrder_semibold;
+        margin-bottom: 48px;
+    }
 }
 
 h3 {
@@ -32,9 +37,26 @@ h3 {
     font-size: 24px;
     margin-bottom: 80px;
     line-height: 40px;
+    &.portfolio {
+        margin-bottom: 20px;
+        margin-top: 56px;
+    }
 }
 
-p {
+h4 {
+    font-family: $newOrder;
+    color: $marcy-grey;
+    &.portfolio {
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+    &.portfolioIntro {
+        line-height: 40px;
+    }
+}
+
+p, li {
     font-family: $newOrder;
     font-weight: $newOrder_regular;
     font-size: 18px;
@@ -61,10 +83,14 @@ a {
         display: block;
         text-decoration: none;
         &:hover {
-            background: #F5F5F5;
+            background: white;
             -webkit-box-shadow: 5px 5px 18px 1px #E7E7E7; 
             box-shadow: 5px 5px 18px 1px #E7E7E7;
             transition: 0.3s;
         }
     }
+}
+
+li {
+    margin-left: 24px;
 }

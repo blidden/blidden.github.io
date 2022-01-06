@@ -9750,8 +9750,14 @@ h2 {
   font-size: 48px;
   margin-bottom: 80px;
 }
+/* line 27, ../scss/_typography.scss */
+h2.portfolio {
+  font-family: new-order, sans-serif;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
 
-/* line 29, ../scss/_typography.scss */
+/* line 34, ../scss/_typography.scss */
 h3 {
   font-family: new-order, sans-serif;
   font-weight: 500;
@@ -9759,16 +9765,37 @@ h3 {
   margin-bottom: 80px;
   line-height: 40px;
 }
+/* line 40, ../scss/_typography.scss */
+h3.portfolio {
+  margin-bottom: 20px;
+  margin-top: 56px;
+}
 
-/* line 37, ../scss/_typography.scss */
-p {
+/* line 46, ../scss/_typography.scss */
+h4 {
+  font-family: new-order, sans-serif;
+  color: #808080;
+}
+/* line 49, ../scss/_typography.scss */
+h4.portfolio {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+/* line 54, ../scss/_typography.scss */
+h4.portfolioIntro {
+  line-height: 40px;
+}
+
+/* line 59, ../scss/_typography.scss */
+p, li {
   font-family: new-order, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 33px;
 }
 
-/* line 45, ../scss/_typography.scss */
+/* line 67, ../scss/_typography.scss */
 .siteTitle a {
   font-family: bely, serif;
   font-weight: 400;
@@ -9778,24 +9805,29 @@ p {
   text-decoration: none;
 }
 
-/* line 55, ../scss/_typography.scss */
+/* line 77, ../scss/_typography.scss */
 a {
   color: #ED6E27;
   font-family: new-order, sans-serif;
   font-weight: 600;
   text-decoration: underline;
 }
-/* line 60, ../scss/_typography.scss */
+/* line 82, ../scss/_typography.scss */
 a.projectTile {
   display: block;
   text-decoration: none;
 }
-/* line 63, ../scss/_typography.scss */
+/* line 85, ../scss/_typography.scss */
 a.projectTile:hover {
-  background: #F5F5F5;
+  background: white;
   -webkit-box-shadow: 5px 5px 18px 1px #E7E7E7;
   box-shadow: 5px 5px 18px 1px #E7E7E7;
   transition: 0.3s;
+}
+
+/* line 94, ../scss/_typography.scss */
+li {
+  margin-left: 24px;
 }
 
 @media only screen and (min-width: 64.0625em) {
@@ -9822,7 +9854,7 @@ a.projectTile:hover {
     text-transform: uppercase;
     font-size: 18px;
     transform: rotate(90deg);
-    padding: 27px 100px;
+    padding: 27px 70px;
   }
   /* line 23, ../scss/_nav.scss */
   .sideNav a:hover {
@@ -9857,7 +9889,7 @@ a.projectTile:hover {
 }
 /* line 8, ../scss/_layout.scss */
 .section.off-white {
-  background: #FCFCFC;
+  background: #F9F9F9;
 }
 @media only screen and (min-width: 64.0625em) {
   /* line 11, ../scss/_layout.scss */
@@ -9869,45 +9901,51 @@ a.projectTile:hover {
     margin-bottom: 0;
   }
 }
+/* line 19, ../scss/_layout.scss */
+.section.warm-white {
+  background: #f7f7f7;
+}
 
-/* line 21, ../scss/_layout.scss */
+/* line 24, ../scss/_layout.scss */
 img {
   padding: 60px 0;
 }
 
-/* line 25, ../scss/_layout.scss */
+/* line 28, ../scss/_layout.scss */
 .projectTile {
   font-family: new-order, sans-serif;
   padding: 8px;
   overflow: hidden;
 }
-/* line 29, ../scss/_layout.scss */
+/* line 32, ../scss/_layout.scss */
 .projectTile .projectTile__line {
   width: 50%;
   height: 8px;
   margin-bottom: 4px;
   background: black;
 }
-/* line 35, ../scss/_layout.scss */
+/* line 38, ../scss/_layout.scss */
 .projectTile .projectTile__title {
   font-size: 24px;
   font-weight: 500;
   color: black;
 }
-/* line 40, ../scss/_layout.scss */
+/* line 43, ../scss/_layout.scss */
 .projectTile .projectTile__subtitle {
   font-size: 18px;
   font-weight: 400;
   color: #808080;
 }
-/* line 45, ../scss/_layout.scss */
+/* line 48, ../scss/_layout.scss */
 .projectTile .projectTile__image {
-  height: 100%;
+  height: 290px;
   width: 100%;
 }
-/* line 49, ../scss/_layout.scss */
+/* line 52, ../scss/_layout.scss */
 .projectTile img {
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 /* line 1, ../scss/_footer.scss */
@@ -9929,4 +9967,40 @@ footer {
 /* line 14, ../scss/_footer.scss */
 .footer__links a {
   color: black;
+}
+
+/* line 1, ../scss/_portfolio.scss */
+.portfolio__pill {
+  display: inline-block;
+  background: #444444;
+  font-family: new-order, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: auto;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  margin-top: 60px;
+  font-weight: 500;
+}
+
+/* line 15, ../scss/_portfolio.scss */
+.portfolio__featureImage {
+  width: 100%;
+  padding: 40px 0;
+}
+
+/* line 20, ../scss/_portfolio.scss */
+.portfolioMeta {
+  padding: 16px 0;
+  border-top: solid 1px #d9d9d9;
+  border-bottom: solid 1px #d9d9d9;
+  font-family: new-order, sans-serif;
+  margin-bottom: 100px;
+}
+
+/* line 27, ../scss/_portfolio.scss */
+.portfolioMeta__heading {
+  font-weight: 500;
+  font-size: 24px;
 }
