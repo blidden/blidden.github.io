@@ -11,12 +11,17 @@ $newOrder: new-order, sans-serif;
 $newOrder_regular: 400;
 $newOrder_medium: 500;
 $newOrder_semibold: 600;
+$newOrder_bold: 700;
 
 h1 {
     font-family: $belyDisplay;
     font-weight: $belyDisplay_regular;
     font-size: 100px;
     margin-bottom: 100px;
+    &.blog {
+        margin-bottom: 16px;
+        font-size: 90px;
+    }
 }
 
 h2 {
@@ -87,6 +92,15 @@ a {
             -webkit-box-shadow: 5px 5px 18px 1px #E7E7E7; 
             box-shadow: 5px 5px 18px 1px #E7E7E7;
             transition: 0.3s;
+        }
+    }
+    &.blog {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+            background: black;
+            color: white;
         }
     }
 }
