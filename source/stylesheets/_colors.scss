@@ -1,0 +1,12 @@
+$nyc-orange: #ED6E27;
+$marcy-grey: #808080;
+$cure-grey: #d9d9d9;
+$thunder-grey: #8b8b8b;
+$white-marshmellow: #F9F9F9;
+
+::selection {
+    background: $nyc-orange; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: $nyc-orange; /* Gecko Browsers */
+  }

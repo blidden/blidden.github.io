@@ -1,0 +1,96 @@
+// Font: New Order
+$newOrder: new-order, sans-serif;
+$newOrder__light: 300;
+$newOrder__regular: 400;
+$newOrder__medium: 500;
+$newOrder__semibold: 600;
+$newOrder__bold: 700;
+
+// Font: Bely
+$bely: bely, serif;
+$bely__regular: 400;
+$bely__bold: 700;
+
+// Font: Bely Display
+$belyDisplay: bely-display, sans-serif;
+$belyDisplay__regular: 400;
+
+// Sizes
+$size__paragraph: 18px;
+$size__heading1: 100px;
+$size__heading2: 48px;
+$size__heading3: 32px;
+$size__heading4: 24px;
+
+h1 {
+    font-family: $belyDisplay;
+    font-size: $size__heading1;
+    font-weight: $belyDisplay__regular;
+    padding: 16px 0 100px 0;
+    margin: 0;
+    &.blogTitle {
+        padding: 16px 0 24px 0;
+    }
+}
+
+h2 {
+    font-size: $size__heading2;
+    font-weight: $newOrder__semibold;
+    padding-bottom: 60px;
+    line-height: 70px;
+}
+
+h3 {
+    font-size: $size__heading3;
+    font-weight: $newOrder__medium;
+    padding: 64px 0 32px 0;
+    line-height: 50px;
+}
+
+h4 {
+    color: $marcy-grey;
+    font-size: $size__heading4;
+    font-weight: $newOrder__regular;
+    // padding-bottom: 20px;
+    line-height: 50px;
+}
+
+h2, h3, h4 {
+    font-family: $newOrder;
+    margin: 0;
+    &.feature {
+        font-family: $belyDisplay;
+        font-weight: $belyDisplay__regular;
+    }
+    &.no-padding-top {
+        padding-top: 0;
+      }
+    &.no-padding-bottom {
+        padding-bottom: 0;
+      }
+}
+
+p {
+    font-family: $newOrder;
+    font-size: $size__paragraph;
+    line-height: 32px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: $nyc-orange;
+    text-decoration: underline;
+}
+
+li, ol {
+    @extend p;
+}
+
+.siteTitle {
+    font-family: $bely;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $marcy-grey;
+}

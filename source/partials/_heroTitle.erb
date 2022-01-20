@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-12">
+    <div class="siteTitle">Beau Lidden</div>
+    <h1><%= locals[:pageTitle] %></h1>
+  </div>
+</div>
+<% if locals[:pageSubheading] %>
+<div class="row">
+  <div class="col-8">
+    <h3 class="no-padding-top"><%= locals[:pageSubheading] %></h3>
+  </div>
+</div>
+<% else end %>

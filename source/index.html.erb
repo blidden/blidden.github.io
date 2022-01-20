@@ -1,0 +1,68 @@
+---
+title: Beau Lidden • Product Design
+---
+
+<div class="container">
+  <%= partial(:"partials/heroTitle", :locals =>
+    {
+      :pageTitle => "Product Design.",
+    })
+  %>
+</div>
+
+<div class="wrapper offWhite">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="feature">Portfolio</h2>
+      </div>
+      <div class="row">
+        <%= partial(:"partials/portfolioTile", :locals =>
+          {
+            :projectTile_size => 'col-6',
+            :projectTile_link => 'portfolio/accelo-nav/',
+            :projectTile_title => 'Accelo Nav',
+            :projectTile_type => 'Product design',
+            :projectTile_image => 'images/accelo_nav.png',
+          })
+        %>
+        <%= partial(:"partials/portfolioTile", :locals =>
+          {
+            :projectTile_size => 'col-6',
+            :projectTile_link => 'portfolio/accelo-scheduling',
+            :projectTile_title => 'Accelo Scheduling',
+            :projectTile_type => 'Product design',
+            :projectTile_image => 'images/accelo_scheduling.png',
+          })
+        %>
+        <%= partial(:"partials/portfolioTile", :locals =>
+          {
+            :projectTile_size => 'col-12',
+            :projectTile_link => 'portfolio/goodreads',
+            :projectTile_title => 'Goodreads',
+            :projectTile_type => 'Concept design',
+            :projectTile_image => 'images/goodreads.png',
+          })
+        %>
+        <%= partial(:"partials/portfolioTile", :locals =>
+          {
+            :projectTile_size => 'col-6',
+            :projectTile_link => 'portfolio/racq',
+            :projectTile_title => 'RACQ',
+            :projectTile_type => 'Website design',
+            :projectTile_image => 'images/racq.jpeg',
+          })
+        %>
+        <%= partial(:"partials/portfolioTile", :locals =>
+          {
+            :projectTile_size => 'col-6',
+            :projectTile_link => 'portfolio/telstra-belong',
+            :projectTile_title => 'Telstra Belong',
+            :projectTile_type => 'Website design',
+            :projectTile_image => 'images/belong.jpeg',
+          })
+        %>
+      </div>
+    </div>
+  </div>
+</div>

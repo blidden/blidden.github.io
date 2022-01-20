@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <title>Beau Lidden • Blog</title>
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/ouu5dwu.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+  <%= stylesheet_link_tag "site" %>
+  <%= javascript_include_tag "site" %>
+</head>
+
+<body>
+  <div class="mobileBorder"></div>
+  <%= partial "partials/nav" %>
+  <div class="container">
+    <%= partial(:"partials/heroTitle", :locals =>
+      {
+        :pageTitle => "Blog.",
+        :pageSubheading => "A collection of thoughts and questions as I meander through life, design, and other curiosities.",
+      })
+    %>
+    <div class="row">
+      <div class="col-12">
+
+        <% page_articles.each_with_index do |article, i| %>
+
+        <a href="<%= article.url %>" class="blog">
+        <div class="blogTile">
+          <div class="blogTile__wrapper">
+            <div class="blogTile__circle <%= article.data.type %>"></div>
+            <div class="blogTile__info">
+              <div class="blogTile__title"><%= article.data.title %></div>
+              <div class="blogTile__meta"><%= article.date.strftime('%B %d, %Y') %></div>
+            </div>
+          </div>
+        </div>
+        </a>
+
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+  <%= partial "partials/footer" %>  
+</body>
+
+</html>

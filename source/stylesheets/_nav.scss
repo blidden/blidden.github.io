@@ -1,0 +1,85 @@
+.sideNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    background: $nyc-orange;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a {
+        color: black;
+        font-family: $newOrder;
+        font-weight: $newOrder__regular;
+        text-decoration: none;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-size: 18px;
+        transform: rotate(90deg);
+        padding: 30px 70px;
+
+        &:hover {
+            background: white;
+            transition: 0.2s;
+            color: $nyc-orange;
+            font-weight: $newOrder__semibold;
+        }
+    }
+
+    @media only screen and (max-width: $breakpoint-med) {
+        visibility: hidden;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 9;
+        background: $nyc-orange;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: black;
+            transform: none;
+            z-index: 10;
+            font-size: 80px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.mobileNav__controls {
+    display: none;
+
+    .mobileNav__controls__open {
+        visibility: visible;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        z-index: 10;
+    }
+
+    .mobileNav__controls__close {
+        visibility: hidden;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        z-index: 10;
+    }
+
+    img {
+        width: 48px;
+    }
+
+    @media only screen and (max-width: $breakpoint-med) {
+        display: block;
+    }
+}

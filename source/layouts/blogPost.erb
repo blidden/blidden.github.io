@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <title>Beau Lidden • Blog</title>
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/ouu5dwu.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+  <%= stylesheet_link_tag "site" %>
+  <%= javascript_include_tag "site" %>
+</head>
+
+<body>
+  <div class="mobileBorder"></div>
+
+  <%= partial "partials/nav" %>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="blog__backLink">
+          <img src="/images/back_arrow.svg" />
+          <a href="/blog/index.html">Back</a>
+        </div>
+        <h1 class="blogTitle"><%= current_article.title %></h1>
+        <div class="blogMeta">
+          <div><%= current_article.date.strftime('%B %d, %Y') %></div>
+          <div class="blogMeta__circle book-review"></div>
+          <div>Book review</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blogFeatureImage" style="background-image:url('<%= current_article.data.image %>');background-size:cover;background-position-y: 25%;"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+
+  <%= partial "partials/footer" %>
+</body>
+
+</html>

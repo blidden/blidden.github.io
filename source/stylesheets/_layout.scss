@@ -1,0 +1,28 @@
+.mobileBorder {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100vh;
+  background: $nyc-orange;
+  @media only screen and (max-width: $breakpoint-med) {
+    display: block;
+  }
+  @media only screen and (max-width: $breakpoint-small) {
+    display: block;
+    width: 10px;
+  }
+}
+
+blockquote {
+  font-family: $bely;
+  margin: 64px 0 64px 30px;
+  font-size: 32px;
+  font-weight: $bely__regular;
+  border-left: solid 10px $nyc-orange;
+  padding: 20px 0 20px 40px;
+  color: $thunder-grey;
+  font-style: italic;
+  line-height: 40px;
+}
