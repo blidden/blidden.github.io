@@ -20,14 +20,14 @@
   <%= partial "partials/nav" %>
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-9">
         <div class="blog__backLink">
           <img src="/images/back_arrow.svg" />
-          <a href="/">Back</a>
+          <a href="/#portfolio">Back</a>
         </div>
         <div class="projectPill">Portfolio case study</div>
         <h1><%= current_page.data.project_title %></h1>
-        <div class="projectIntro col-9">
+        <div class="projectIntro">
           <h4><%= current_page.data.project_intro %></h4>
         </div>
         <img src="<%= current_page.data.project_image %>" class="project_featureImage" />
@@ -48,7 +48,7 @@
       </div>
     </div>
     <div class="row projectBody">
-      <div class="col-12">
+      <div class="col-9">
         <%= yield %>
       </div>
     </div>

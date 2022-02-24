@@ -31,6 +31,9 @@ h1 {
     &.blogTitle {
         padding: 16px 0 24px 0;
     }
+    &.homepage {
+        font-size: 180px;
+    }
 }
 
 h2 {
@@ -51,8 +54,7 @@ h4 {
     color: $marcy-grey;
     font-size: $size__heading4;
     font-weight: $newOrder__regular;
-    // padding-bottom: 20px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 h2, h3, h4 {
@@ -82,10 +84,15 @@ a {
     text-decoration: none;
     color: $nyc-orange;
     text-decoration: underline;
+    display: block;
 }
 
 li, ol {
     @extend p;
+}
+
+ul {
+    margin: 0;
 }
 
 .siteTitle {

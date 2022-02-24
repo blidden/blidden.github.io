@@ -61,6 +61,8 @@
 }
 
 .projectBody {
+    display: flex;
+    justify-content: center;
     img, video {
         padding: 64px 0;
         &.no-padding-bottom {
